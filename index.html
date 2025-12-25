@@ -1,99 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¡CARTA! ❤️</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Flowers</title>
 </head>
+
 <body>
-    <div class="floating-hearts" id="floatingHearts"></div>
-    <section class="section carta-section">
-    <div class="container">
-        <h1>¡CARTA! ❤️</h1>
-        <p class="subtitle">Una pequeña sorpresa para ti...</p>
-
-        <div class="envelope-wrapper" id="envelopeWrapper">
-            <div class="envelope">
-                <div class="envelope-base"></div>
-                <div class="envelope-flap"></div>
-                <div class="heart-seal" onclick="openEnvelope()">❤️</div>
-                
-                <div class="letter">
-                    <div class="letter-content">
-                        <div class="letter-title">Para ti...</div>
-                        <div class="video-container">
-                            <video id="videoPlayer" controls>
-                                <source src="videos/carta.mp4" type="video/mp4">
-                                Tu navegador no soporta el elemento de video.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="buttons">
-            <button class="btn-open" onclick="openEnvelope()">Abrir</button>
-            <button class="btn-close" onclick="closeEnvelope()">Cerrar</button>
-        </div>
-
-        <p class="instruction">Haz clic en "Abrir" o en el corazón ❤️</p>
+    <div class="greetings">
+        <span>H</span>
+        <span>o</span>
+        <span>l</span>
+        <span>a</span>
+        <span>!</span>
     </div>
-    </section>
-    <section class="section flores-section">
-    <div class="container1">
-<!-- ===== SOBRE CARTA 2 ===== -->
- <div class="flower-card-area"></div>
-<div class="envelope-wrapper flower-envelope" id="flowerEnvelope">
-    <div class="envelope">
-        <div class="envelope-base"></div>
-        <div class="envelope-flap"></div>
-
-        <div class="heart-seal flower-heart" onclick="openFlowerEnvelope()">🌸</div>
-
-        <div class="letter flower-letter">
-            <div class="letter-content">
-                <div class="letter-title">Para ti 🌸</div>
-
-                <div class="video-container">
-                    <video id="flowerVideo" controls>
-                        <source src="videos/carta2.mp4" type="video/mp4">
-                        Tu navegador no soporta el video.
-                    </video>
-                </div>
-            </div>
-        </div>
+    <div class="description">
+        <span>ESTE DETALLE ES PARA TI :)</span>
     </div>
-</div>
-
-
-<!-- Botones carta 2 -->
-<div class="buttons flower-buttons">
-    <button class="btn-open" onclick="openFlowerEnvelope()">Abrir</button>
-    <button class="btn-close" onclick="closeFlowerEnvelope()">Cerrar</button>
-</div>
- <!-- Botón a la derecha -->
-    <div class="next-page-btn">
-        <a href="carta.html">Siguiente 💖</a>
+    <div class="button">
+        <button class="botones">
+            <a href="index.html" style="color: #fff;">CLICK AQUÍ</a>
+        </button>
     </div>
 
-
-        <!-- Estrellas de fondo -->
-        <div class="stars" id="stars"></div>
-        
-        <!-- Plantas -->
-        <div class="plants" id="plants"></div>
-        
-        <!-- Hierba -->
-        <div id="grassContainer"></div>
-        
-        <!-- Suelo -->
-        <div class="ground"></div>
-    </div>
-    </section>
-
-    <script src="idex.js">
-    </script>
 </body>
+
 </html>
